@@ -60,48 +60,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.menu {
-  display: flex;
-  flex-direction: column; 
-  align-items: center;    
-  gap: 0.5rem;
-  margin-bottom: var(--espacio-lg);
-}
-
-.menu ul {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-}
-
-.menu a {
-  color: var(--gris-asfalto);
-  text-decoration: none;
-  font-weight: 600;
-  padding: var(--espacio-sm);
-  display: block;
-}
-
-.menu a.activo {
-  color: var(--verde-ruta);
-  font-weight: 600;
-}
-
-.menu a:hover {
-  color: var(--naranja-pedal);
-  text-decoration: underline;
-}
-
-.menu a:focus {
-  color: var(--verde-ruta);
-  outline: 3px solid var(--naranja-pedal);
-  outline-offset: 3px;
-}
-
 .footer {
   display: flex;
   flex-direction: column;
@@ -110,52 +68,6 @@ a:hover {
   text-align: center;
 }
 
-
-button,
-.boton,
-.boton-reservar {
-  display: inline-block;
-  background-color: var(--verde-ruta);
-  color: #ffffff;
-  border: none;
-  padding: var(--espacio-sm) var(--espacio-md);
-  font-family: var(--fuente-cuerpo);
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-button:hover,
-.boton:hover,
-.boton-reservar:hover {
-  background-color: var(--naranja-pedal);
-  color: var(--azul-noche);
-  text-decoration: underline;
-}
-
-button:focus,
-.boton:focus,
-.boton-reservar:focus {
-  outline: 3px solid var(--naranja-pedal);
-  outline-offset: 3px;
-}
-
-.menu a.boton-reservar {
-  display: inline-block;
-  color: #ffffff;
-  padding: var(--espacio-sm) var(--espacio-md);
-}
-
-.menu a.boton-reservar:hover {
-  background-color: var(--naranja-pedal);
-  color: var(--azul-noche);
-  text-decoration: underline;
-}
-
-.menu a.boton-reservar:focus {
-  color: #ffffff;
-}
 
 .boton-whatsapp {
   position: fixed;
@@ -264,18 +176,6 @@ form button {
 }
 
 
-
-@media (min-width: 768px) {
-  .menu {
-    flex-direction: row;
-    justify-content: space-between; 
-  }
-
-  .menu ul {
-    flex-direction: row;           
-    gap: 2rem;
-  }
-}
 
 @media (min-width: 1200px) {
   .footer {
